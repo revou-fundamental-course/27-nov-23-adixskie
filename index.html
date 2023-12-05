@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator segitiga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1 data-text="kalkulator">kalkulator segitiga</h1>
+        <img src="img/segitiga.jpg" alt="segitiga">
+    </div>
+
+    <div class="rumus">
+        <h2>Rumus Luas Segitiga :</h2><br>
+        <p>L = 1/2 * a * t</p><br>
+        <ul class="ul">
+            <li class="li">L = Luas</li>
+            <li class="li">a = alas</li>
+            <li class="li">t = tinggi</li>
+        </ul>
+    </div>
+
+    <div class="input-box">
+        <input type="number" id="alas" required="required">
+        <span>alas</span>
+    </div>
+
+    <div class="input-box">
+        <input type="number" id="tinggi" required="required">
+        <span>tinggi</span>
+    </div>
+
+    <div class="container">
+        <a href="#">
+            <span id="hitung">Hitung</span>
+        </a>
+    </div>
+
+    <div id="output" class="output"></div>
+
+    <div class="container">
+        <a href="javascript:location.reload(true)">
+            <span class="reload">Refresh</span>
+        </a>
+    
+
+    <div class="rumus">
+        <h2>Rumus Keliling Segitiga :</h2><br>
+        <p>K = S1 + S2 + S3</p><br>
+        <ul class="ul">
+            <li class="li">K = Keliling</li>
+            <li class="li">S1 = Sisi A</li>
+            <li class="li">S2 = Sisi B</li>
+            <li class="li">S3 = Sisi C</li>
+            
+        </ul>
+    </div>
+
+    
+    <div class="input-box">
+        <input type="number" id="s1" required="required">
+        <span>S1</span>
+    </div>
+
+    
+    <div class="input-box">
+        <input type="number" id="s2" required="required">
+        <span>S2</span>
+    </div>
+
+    
+    <div class="input-box">
+        <input type="number" id="s3" required="required">
+        <span>S3</span>
+    </div>
+
+    
+    <div class="container">
+        <a href="#">
+            <span id="input">Hitung</span>
+        </a>
+    </div>
+<div id="hasil"></div>
+
+<div class="container">
+    <a href="javascript:location.reload(true)">
+        <span class="reload">Refresh</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
